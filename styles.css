@@ -55,7 +55,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 330px;
     padding: 50px;
 }
 
@@ -92,4 +92,41 @@ button {
     font-size: 18px;
     color: #E5E7EB;
 
+}
+
+.containerrow{
+    display:flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: row;
+    padding: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    
+}
+
+.bodytwo{
+    color: #1F2937F;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    height: 330px;
+    padding: 50px;
+    flex-direction: column;
+    }
+
+.bluesquare {
+width: 200px;
+height: 200px;
+border-color: #3882F6;
+border-width: 4px;
+border-style: solid;
+border-radius: 25px;
+}
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
 }
