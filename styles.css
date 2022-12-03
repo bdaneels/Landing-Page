@@ -65,8 +65,8 @@ button {
   }
   
   button.continue {
-    background: royalblue;
-    border: 1px solid royalblue;
+    background: #3882F6;
+    border: 1px solid #3882F6;
     color: white;
     margin: 6px;
   }
@@ -161,10 +161,49 @@ border-radius: 25px;
     font-style: italic;
     color: #1F2937;
     margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .textauthor{
     display:flex;
     text-align: right;
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+.bluecontainer {
+    background-color: #3882F6;
+    border-radius: 12px;
+    color: #F9FAF8;
+    display: flex;
+    padding:50px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.bluecontainersecondarytext{
+    color: #E5E7EB;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: lighter;
+    margin-right: 150px;
+
+}
+
+.buttonborderwhite{
+    border-width: 4px;
+    border-color: white;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
 }
