@@ -45,7 +45,7 @@ ul {
     display:flex;
     align-items: flex-start;
     flex-direction: column;
-    padding: 30px;
+    padding: 15px;
 }
 
 .body{
@@ -99,7 +99,7 @@ button {
     align-items: flex-start;
     gap: 10px;
     flex-direction: row;
-    padding: 30px;
+    padding: 15px;
     font-size: 12px;
     font-weight: normal;
     
@@ -117,6 +117,19 @@ button {
     flex-direction: column;
     }
 
+.bodythree{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    height: 330px;
+    padding: 50px;
+    flex-direction: column;
+}
+
+
 .bluesquare {
 width: 200px;
 height: 200px;
@@ -129,4 +142,29 @@ border-radius: 25px;
 .text{
     display: flex;
     flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.containerone{
+    display:flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.textquote{
+    display:flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+.textauthor{
+    display:flex;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
